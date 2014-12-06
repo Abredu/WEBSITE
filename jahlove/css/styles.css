@@ -1,0 +1,43 @@
+/* CSS Document */
+body					{ background-image:url(../images/india_hg.jpg);
+							background-repeat:repeat; font-family:Arial, Helvetica, sans-serif; }
+
+h1, h2, h3				{ font-family:Arial, Helvetica, sans-serif; }							
+							
+#wrapper				{ width:900px; margin:10px auto;
+							 background-color:#FFF; padding:0 50px; }
+
+#Top					{	}
+#Logo					{ float:left; margin:50px 0; }
+#Social-media			{ float:right; margin:40px 0; }
+#Social-media ul li		{ display:inline; list-style-type:none;}
+#Social-media p			{ text-align:right; }
+							
+#Topnav					{ clear:both; }
+#Topnav ul				{ margin:0; padding:15px 0;
+							border-top:1px #000 dotted; }
+						
+#Topnav ul li			{ display:inline; list-style-type:none;
+							margin:0 40px 0 0; }
+#Topnav a:link			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; }	
+#Topnav a:visited		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; }
+#Topnav a:active		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; }
+#Topnav a:hover			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#C60; }
+#Topnav a:focus			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#C60; }				
+				
+#Content				{float:left; width:590px; }
+#Content h2				{ color:#C60; }
+#Content p				{ font-size:12px; line-height:180%; }
+
+#Box1					{ width:265px; float:left; margin-right:20px; }
+#Box2					{ width:265px; float:left; }
+.img-right				{ float:right; padding:0 0 15px 20px; }
+
+#Rightside-Area			{ float:right; width:250px; }
+#Rightside-Area h2		{ color:#C60; }
+#Rightside-Area p	    { font-size:12px; line-height:180%;	}
+#Rightside-Area li		{ font-size:12px; line-height:180%; }
+
+#Footer					{ clear:both; padding:10px 0;
+							border-top:1px #000 dotted; }
+#Footer p				{ text-align:center; font-size:15px; font-weight:bold; }
